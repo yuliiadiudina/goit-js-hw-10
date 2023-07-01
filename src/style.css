@@ -1,0 +1,54 @@
+
+body {
+    background-color: #ffaf37;
+}
+
+.box-img {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: 6px solid #ffaf37;
+    border-radius: 50px;
+}
+
+
+.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.breed-select {
+    display: none;
+    max-width: 400px;
+    margin: auto;
+}
+
+
+.cat-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #fff47d;
+    border: 10px solid  #ffaf37;
+    border-radius: 40px;
+}
+
+
+.box {
+    width: 400px;
+}
